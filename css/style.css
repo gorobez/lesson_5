@@ -1,0 +1,117 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{ 
+    color: red;
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+li * {
+    color: red;
+    font-style: oblique;
+    text-transform: lowercase;
+}
+
+.what {
+    font-style: italic;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: rgba(61, 214, 940, 0.5);
+}
+
+#footer {
+    font-family: 'Larsseit';
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    color: gray;
+}
+
+p.text {
+    color: rgb(27, 170, 39);
+    text-align: justify;
+}
+
+.header-title.title {
+    letter-spacing: 5px;
+    color: rgb(34, 252, 14);
+}
+
+.sharding,
+.beacon-chain {
+    text-transform: capitalize;
+    color: rgb(120, 154, 20);
+    background: rgba(0, 0, 0, 0.125);
+    margin-left: 50px;
+}
+
+.proof-stake p {
+    font-family: 'Larsseit';
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: line-through;
+    color: red;
+    text-decoration: line-through;
+}
+
+.summaries .text{
+    white-space: nowrap;
+    word-spacing: 20px;
+    color: rgb(209, 122, 10);
+}
+
+.differences h2 {
+    font-family: 'Larsseit';
+    font-weight: 700;
+    text-decoration: overline;
+    color: rgb(209, 122, 10);
+}
+
+.new-ethereum > p {
+    text-indent: 15px;
+    color:rgb(93, 0, 255)
+}
+
+.sharding-title ~ p{
+    color: rgb(93, 0, 255);
+}
+
+.proof + p {
+    color: rgb(0, 143, 45);
+    text-align: right;
+}
+
+.phasenull {
+    background: rgba(74, 22, 22, 0.33);
+    width: 700px;
+    padding: 30px 20px 40px 50px;
+    margin-top: 50px;
+}
+
+.phaseone {
+    background: rgba(8, 98, 118, 0.33);
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+.phasetwo {
+    background: rgba(8, 118, 14, 0.33);
+    padding: 30px 10px 70px;
+    margin: 50px;
+}
+
+.merger {
+    background: rgba(145, 162, 12, 0.33);
+    padding: 30px;
+    margin-right: 60px;
+}

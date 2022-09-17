@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../fonts/Larsseit-MediumItalic.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../fonts/Larsseit-MediumItalic.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../fonts/Larsseit-ThinItalic.woff") format("woff");
+    font-display: swap;
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../fonts/Larsseit-ThinItalic.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../fonts/Larsseit-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url("../fonts/Larsseit-Bold.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
